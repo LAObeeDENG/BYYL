@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公司名 - 主页</title>
+    <link rel="stylesheet" href="ai.css">
+    <script src="1.js"></script>
+    <script src="2.js"></script>
+</head>
+<body>
+  
+  <header id="header">      
+    <div class="logo-and-title">
+        <img src="logo.png" alt="公司图标">
+        <h1>欢迎来到绿能拓新</h1>
+        <div class="header-divider"></div> <!-- 添加分隔线 -->
+        <nav>
+            <ul>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#products">我们的产品</a></li>
+                <li><a href="#team">我们的团队</a></li>
+                <li><a href="#awards">获奖情况</a></li>
+                <li><div class="dropdown">
+                    <span class="dropbtn">更多</span>
+                        <div class="dropdown-content">
+                          <a href="#">链接1</a>
+                          <a href="#">链接2</a>
+                          <a href="#">链接3</a></li>
+                        </div>
+                      </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <main>
+       <div class="bigimage"><img src="sixpeople.jpg" alt="公司图标"></div><!--开头大图-->
+      <div class="placeholder"></div> <!-- 空白占位元素 -->
+      <div class="content-divider"></div> <!-- 添加分隔元素 -->
+        <section id="about">
+            <h2>关于我们</h2>
+           
+                 <p>团队成员来自材能、轻化、计算机等学院，亦与广大在计算机及信息工程学科开展跨校合作。
+                团队于2023年年初创立，短时间内即在大湾区“青创杯”、
+                广州市“黄埔杯”等面向社会的青年创业大赛上取得佳绩。目前我团队回归学校冲击“挑战杯”大学生创业计划大赛及“互联网+”大学生创新创业大赛,
+                入围了2023青蓝国际创新创业大赛并取得了小挑校赛金奖的好成绩，将于2024年3月冲击
+                省赛。团队立足“真干实创”的创新创业精神，依托暨大创新创业学院以及南沙青创基地公
+                共平台，独立完成多项科研计划，目前团队主要研发领域为锂离子汽车动力电池的高效综
+                合回收技术。目前已经成功商业化应用的项目为“人工智能辅助的锂电池综合智能回收工艺
+                及其生产线”</p>
+                <div class="banner-container">
+                    <!-- 这里利用input的checked状态来为a标签添加选中状态 -->
+                    <!-- 布局方式采用的是 input + a 标签，不可以添加父级，不然css无法选择到 banner-img-container -->
+                    <!-- 轮播图圆点 -->
+                    <input type="radio" name="radio-set" checked="checked" id="banner-control-1">
+                    <a class="banner-nav-a" href="#banner01"></a>
+                    <input type="radio" name="radio-set" id="banner-control-2">
+                    <a class="banner-nav-a" href="#banner02"></a>
+                    <input type="radio" name="radio-set" id="banner-control-3">
+                    <a class="banner-nav-a" href="#banner03"></a>
+                    <input type="radio" name="radio-set" id="banner-control-4">
+                    <a class="banner-nav-a" href="#banner04"></a>
+                    <input type="radio" name="radio-set" id="banner-control-5">
+                    <a class="banner-nav-a" href="#banner05"></a>
+                    <!-- 轮播图图片容器 -->
+                    <div class="banner-img-container">
+                        <img id="banner01" src="gongsi.jpg" alt="">
+                        <img id="banner02" src="byyl.png" alt="">
+                        <img id="banner03"  src="suran.png" alt="">
+                        <img id="banner04" src="sixpeople.jpg" alt="">
+                        <img id="banner05" src="logo.png" alt="">
+                    </div>
+                </div>
+       
+            
+
+        </section>
+        <section id="products">
+            <h2>我们的产品</h2>
+            <div class="product">
+                <img src="byyl.png" alt="产品1">
+                <h3>不遗余“锂”——锂电正极高质回收拓路者</h3>
+                <p>近年来，我国动力锂电池装机总量随着新能源汽车保有量快速上升而迅速膨
+                    胀，动力锂电池回收这一千亿市场已然抵达井喷前夜。然而目前国内市场仍存在
+                    多数企业回收技术指标未达法规要求，无法合规开展生产、白名单企业产出材料
+                    电性能不佳等一系列负面因素。严重阻碍了锂电池回收市场发展进程。
+                    意识到这个问题，我司提出了核心技术“锂电池正极材料高质量回收控制设
+                    备”及其配套工艺。在工艺方面，我们以柠檬酸取代传统的硝酸作为溶剂，极大
+                    减少了生产过程所产生的空气污染物，废水废气排放仅为传统工艺的 7%。在机
+                    械方面，我们利用智能控制装备，引入农业中“缓释”的概念，根据探测的实时
+                    浓度数据逐步投入沉淀剂，实现电极材料可控沉淀，提高电极材料性能约 20%。
+                    对于白名单企业客户而言，我们的设备能够有效降低生产成本，就污染治理
+                    而言，由于几乎不产生废弃，平均每吨锂电池回收生产可降低 1 万元的废气治理
+                    成本，能够极大的节约企业的生产成本，同时能够避免环境保护及污染治理相关
+                    的法律法规风险。对于非白名单企业客户客户而言，我们的新工艺与新设备能够
+                    兼容大部分传统生产线，使客户企业在无需大幅改造生产线的条件下即可达到法
+                    规白名单所要求的标准。</p>
+            </div>
+            <div class="product">
+                <img src="suran.png" alt="产品2">
+                <h3>塑燃新思——塑料裂解制燃油催化剂的破译者</h3>
+                <p>近年我国双碳目标持续推进，清洁能源及废弃资源的回收已然成为题中之义，
+                    但保有量极大的燃油市场缺口仍在不断增大，整个国家对燃油的需求量仍十分巨大。
+                    目前主流的燃油生产仍以传统的石油化工、煤制油和天然气为主，存在成本高昂、
+                    使用资源不可持续等一系列问题，同时煤炭制油技术不仅受限于煤炭储量，同时还会
+                    对环境造成巨大污染。目前对废塑料进行化学回收的企业仍面临能耗高、产品杂质多
+                    质量差等一系列问题。
+                    针对此问题，我司提出强酸酸化黏土催化剂催化技术，催化废弃塑料裂解制取燃油。
+                    利用强酸酸化以增加酸化位点，使用柱撑黏土增大反应接触面积，强化催化剂的热稳
+                    定性，使其在高温环境下仍能保持高催化活性，有效催化裂解废弃塑料，使中低级烃
+                    类转化率突破60%，同时有效减少废气及有害气体排放，平均每吨废塑料节约约0.4万
+                    元危废处理成本。
+                    我司面向废塑料化学回收厂家及资源再生利用企业，销售“强酸酸化蒙脱土催化剂”以
+                    及配套的高温催化设备，帮助客户提高废弃塑料的利用率及降低能耗，减少排污。</p>
+            </div>
+            <!-- 可以添加更多产品 -->
+        </section>
+        <section id="team">
+            <div class="team-heading">
+                <h2>我们的团队</h2>
+            </div>
+            <div class="member">
+                <img src="shuyao.png" alt="团队成员1">
+                <h3>成员1姓名</h3>
+                <p>成员1职务/简介</p>
+            </div>
+            <div class="member">
+                <img src="dawei.png" alt="团队成员1">
+                <h3>成员1姓名</h3>
+                <p>成员1职务/简介</p>
+            </div>
+            <div class="member">
+                <img src="ziye.png" alt="团队成员1">
+                <h3>成员1姓名</h3>
+                <p>成员1职务/简介</p>
+            </div>
+            <div class="member">
+                <img src="jiaxin.png" alt="团队成员1">
+                <h3>成员1姓名</h3>
+                <p>成员1职务/简介</p>
+            </div>
+            <div class="member">
+                <img src="zou.png" alt="团队成员1">
+                <h3>成员1姓名</h3>
+                <p>成员1职务/简介</p>
+            </div>
+            <div class="member">
+                <img src="lsw.png" alt="团队成员1">
+                <h3>成员1姓名</h3>
+                <p>成员1职务/简介</p>
+            </div>
+           
+        
+            <!-- 可以添加更多成员 -->
+        </section>
+        <section id="awards">
+            <h2>获奖情况</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">奖项1</div>
+                    <div class="swiper-slide">奖项2</div>
+                    <div class="swiper-slide">奖项3</div>
+                    
+                    <!-- 更多奖项 -->
+                </div>
+            </div>
+        
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 绿能拓新.</p>
+    </footer>
+    <button onclick="topFunction()" id="scrollTopBtn" title="返回顶部">Top</button>
+    
+    <script>
+       window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scrollTopBtn").style.display = "block";
+            } else {
+                document.getElementById("scrollTopBtn").style.display = "none";
+            }
+        }
+        
+        // 点击按钮回到页面顶部
+        function topFunction() {
+            // 平滑滚动到顶部
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // 添加平滑滚动效果
+            });
+        }
+
+        let lastScrollTop = 0;
+
+    window.addEventListener("scroll", function() {
+        let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+        if (currentScroll > lastScrollTop) {
+            // 向下滚动，隐藏导航栏
+            document.getElementById("header").classList.add("hidden");
+        } else {
+            // 向上滚动，显示导航栏
+            document.getElementById("header").classList.remove("hidden");
+        }
+        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+});
+
+
+    </script>
+</body>
+</html>
